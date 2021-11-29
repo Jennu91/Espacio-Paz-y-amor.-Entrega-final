@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');   
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style:oblique; 
+    
+  
+
+    }
+
+
+.container-fluid{
+
+    background-color:black;
+    padding-top: 10px;       
+    padding-bottom: 10px;   
+     
+}
+
+#nuestros-productos{
+
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style:oblique; 
+    padding-top: 20px;
+    font-weight: bold;
+
+
+}
+
+.footer{
+    background-color:black ;
+}
+
+.logo-footer{
+    font-style: italic;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+
+}
+
+.form{
+  
+    border-style:double;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 120%;
+    padding:2%;
+         
+}
+
+.boton1{
+    background-color:black;
+    color:white;
+    padding: 2px;
+    margin-bottom: 5px;   
+    font-size: small    
+}
+;
+.text-form{
+
+    font-weight:bold
+}
+
+.title-nav{
+    font-size: 25px;
+    color:rgb(250, 221, 211);
+    padding-right: 40px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.title-nav1{
+    color:white;
+    font-size: 20px;     
+    padding:20px;
+    text-decoration: none;
+    cursor: pointer;    
+}
+
+.boton2{
+    padding: 30px;
+    background-color:black;
+    color:white;
+    font-size: 20px;
+    position:fixed;
+    font-style: italic;
+    border-radius: 10px;
+    margin-left: 80px;
+    
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
