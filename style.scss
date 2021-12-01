@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+$bg-footer: rgb(241, 223, 223) ;
+
+*{
+     margin:0%;
+     padding: 0%;
+     border: 0%;
+ }
+
+ *{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.titulo{
+    text-align: center;   
+    font:{        
+      family: 'Roboto', sans-serif; 
+      style: oblique;  
+      size: x-large
+    }
+}
+
+
+.container-fluid{
+    background-color:black;
+    padding-top: 10px;       
+    padding-bottom: 10px;   
+    font-family: 'Roboto', sans-serif;     
+}
+
+
+hr {
+    color:black;   
+    height: 4px;
+  }
+
+
+.footer{
+    background-color: $bg-footer;    
+}
+
+
+.logo-footer{
+    font:{
+    style: italic;
+    weight: bolder;
+    }
+    color:black;
+    text-align: center;
+}
+
+
+.form{  
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 120%;
+    padding:2%;             
+}
+
+
+.boton1{
+    background-color:black;
+    color:white;
+    padding: 9px;
+    margin-bottom: 5px;   
+    font-size: small;
+}
+
+
+.title-nav1{
+    color:white;        
+    padding:20px;
+    text-decoration: none;
+    cursor: pointer;    
+    text-rendering: optimizeLegibility;    
+    font:{
+    family: 'Roboto', sans-serif; 
+    weight: bold;  
+    size: medium ;   
+    }  
+}
+
+        
+.boton2{
+    position:fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom:30px;
+    right: 30px;
+    background-color: rgb(30, 190, 64);
+    color:white;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+    font-size: 30px;
+    box-shadow: 0px 1px  10px  rgba(0,0,0,3);
+}
+
+
+
+.footer-list{
+    color:black ;
+    font-weight: bolder;    
+    font-family: 'Roboto', sans-serif;    
+      
+}
+
+
+.title-footer-list{
+    text-decoration:underline;
+    padding-bottom: 15px;   
+    font-style: normal; 
+    color:  black;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;         
+}
+
+.link{
+    text-decoration: none;
+    color:black
+}
+
+.img-card{
+ margin-top: 70px;
+ cursor: pointer;
+ margin:30px;
+
+}
+
+.nav-logo:hover{
+transform: scale(1.2,1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,19 +9,22 @@
     <meta name="keywords" content="Velas indumentaria accesorios">
     <title>Espacio Paz y Amor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
     <header class="header-banner">
-        
+
+        <h1 class="titulo">Espacio Paz & Amor</h1>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
             <div class="container-fluid">
 
-                <a class="title-nav" href="#">Paz & Amor</a>
+                <img class="nav-logo" src="./img/Pazamor.jpg" alt="logo" width="60px" height="60px">
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -31,11 +34,11 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
 
-                            <a class="title-nav1" aria-current="page" href="#">Home</a>
+                            <a class="title-nav1" aria-current="page" href="#">Home <i class="fas fa-home"></i></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="title-nav1" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="title-nav1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Productos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,7 +51,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="title-nav1" href="./views/contacto.html">Contacto</a>
+                            <a class="title-nav1" href="./views/contacto.html">Contacto <i class="fas fa-user"></i></a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -60,12 +63,14 @@
                 </div>
             </div>
         </nav>
+
     </header>
 
-        <h1 class="titulo">Espacio Paz & Amor</h1>
 
-      <input class="boton2" type="submit" value="Suscribite">
-    
+    <a href="https://api.whatsapp.com/send?phone=115690000" class="boton2" target="_blank"><i
+            class="fab fa-whatsapp"></i></a>
+
+
     <main class="container-fluid2">
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -83,7 +88,10 @@
                 </div>
                 <div class="carousel-item">
                     <img src="./img/Slider2.PNG" class="d-block w-100" alt="imagen2">
-                </div>            
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Slider3.jpg" class="d-block w-100" alt="imagen2">
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
@@ -96,93 +104,87 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
     </main>
 
-    <section class="container-fluid2">
+   
 
-        <h2 class="mb-5" id="nuestros-productos">Nuestros productos</h2>
-
-        <article class="row">
-        
-            <div class="card col-4">
-                <img src="./img/accesorios.jpg" class="card-img-top" alt="Collar"  width="300px"  height="400px">
-                <div class="card-body">
-                    <h5 class="card-title">Nuestros Accesorios</h5>
-                    <a href="./views/accesorios.html" class="btn btn-dark">Comprá</a>
+    <div class="img-card">
+        <hr>
+        <section class="container-xxl">
+            <article class="row">
+                <div class="card col-12 col-md-4">
+                    <img src="./img/accesorios.jpg" class="card-img-top" alt="Collar" width="300px" height="400px">
+                    <div class="card-body">
+                        <h5 class="card-title"> Accesorios</h5>
+                        <a href="./views/accesorios.html" class="btn btn-dark">Comprar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card col-4">
-                <img src="./img/jean.jpg" class="card-img-top" alt="Jean"  width="300px"  height="400px">
-                <div class="card-body">
-                    <h5 class="card-title">Nuestra Indumentaria</h5>                        
-                    <a href="./views/indumentaria.html" class="btn btn-dark">Comprá</a>               
-                </div>
-                
-            </div>
-            <div class="card col-4">
-                <img src="./img/velas.jpg" class="card-img-top" alt="Vela"  width="300px"  height="400px">
-                <div class="card-body">
-                    <h5 class="card-title">Nuestras Velas</h5>
-                    <a href="./views/velas.html" class="btn btn-dark">Comprá</a>
-                </div>
-            </div>
-        
+                <div class="card col-12 col-md-4">
+                    <img src="./img/jean.jpg" class="card-img-top" alt="Jean" width="300px" height="400px">
+                    <div class="card-body">
+                        <h5 class="card-title">Indumentaria</h5>
+                        <a href="./views/indumentaria.html" class="btn btn-dark">Comprar</a>
+                    </div>
 
-        </article>
+                </div>
+                <div class="card col-12 col-md-4">
+                    <img src="./img/velas.jpg" class="card-img-top" alt="Vela" width="300px" height="400px">
+                    <div class="card-body">
+                        <h5 class="card-title"> Velas</h5>
+                        <a href="./views/velas.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
 
-    </section>
 
     <footer class="container-fluid mt-5 p-4 footer">
-
+        <hr>
         <article class="row">
 
             <div class="col-md-4 mb-5">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-dark">Redes Sociales</li>
-                    <li class="list-group-item"><a href=https://www.instagram.com/espacio.pazamor/?hl=es>Instagram</a> </li>
-                                      
-                    <li class="list-group-item"><a href=115690000>Whatsapp</a></li>
+                <ul class="footer-list">
+                    <li class="title-footer-list">REDES SOCIALES</li>
+                    <li><a class="link" href=https://www.instagram.com/espacio.pazamor/?hles>Instagram</a> <i
+                            class="fab fa-instagram"></i></i></li>
+                    <li><a class="link" href=115690000>Whatsapp</a> <i class="fab fa-whatsapp"></i></li>
                 </ul>
             </div>
             <div class="col-md-4 mb-5">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-dark">Nuestras Sucursales</li>
-                    <li class="list-group-item">Villa del Parque</li>
-                    <li class="list-group-item">Devoto</li>
-                    <li class="list-group-item">Villa Urquiza</li>
-                    <li class="list-group-item">Villa Santa Rita</li>
+                <ul class="footer-list">
+                    <li class="title-footer-list">NUESTRAS SUCURSALES</li>
+                    <li>Villa del parque</li>
+                    <li>Villa devoto</li>
+                    <li>Villa santa rita</li>
                 </ul>
             </div>
             <div class="col-md-4 mb-5">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-dark">Legales</li>
-                    <li class="list-group-item">Afip</li>
-                    <li class="list-group-item">Sobre nosotros</li>
+                <ul class="footer-list">
+                    <li class="title-footer-list">LEGALES</li>
+                    <li>Afip</li>
+                    <li>Sobre nosotros</li>
                 </ul>
             </div>
 
             <p class="logo-footer">~Espacio Paz & Amor~</p>
 
         </article>
-        
+
     </footer>
 
-
-
-    
 </body>
 
 
 <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>   -->
 

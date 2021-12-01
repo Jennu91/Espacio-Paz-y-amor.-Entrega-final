@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "sass": "^1.44.0"
+  },
+  "name": "entrega-trabajo-final--espacio-paz-y-amor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

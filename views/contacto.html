@@ -8,17 +8,19 @@
     <meta name="description" content="Contactanos completando el formulario">
     <meta name="keywords" content="Direccion Ubicacion Whatsapp Mail">
     <title>Espacio Paz y Amor Contactanos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
-    <header class="header-banner">
+    <header class="header-banner">        
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="title-nav" href="#">Paz & Amor</a>
+            <div class="container-fluid">                
+                <img class="nav-logo" src="../img/Pazamor.jpg" alt="logo"  width="60px" height="60px">
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="title-nav1" aria-current="page" href="../index.html">Home</a>
+                            <a class="title-nav1" aria-current="page" href="../index.html">Home <i class="fas fa-home"></i></a></i>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -45,7 +47,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="title-nav1" href="#">Contacto</a>
+                            <a class="title-nav1" href="#">Contacto <i class="fas fa-user"></i></a></i>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -57,14 +59,19 @@
             </div>
         </nav>
 
+<h1 class="titulo">Contactanos</h1>
+
     </header>
 
-    <h1 class="titulo">Dejanos un mensaje</h1>
+    <a href="https://api.whatsapp.com/send?phone=115690000" class="boton2" target="_blank"><i
+        class="fab fa-whatsapp"></i></a>
 
-<div class="form">
+
     <section class="container">
 
-        <form class="formulario">
+     
+
+        <form class="form">
 
             <p> <label class="text-form" for="nombre_apellido"> Nombre y Apellido:</label></p>
             <input type="text" name="nombre" />
@@ -81,45 +88,46 @@
             <input class="boton1" type="reset" value="Limpiar formulario"/>
         
         </form>
-        </section>
+    
+  </section>
 
-    </div>
+    
 
 
     <footer class="container-fluid mt-5 p-4 footer">
-
+        <hr>
         <article class="row">
 
             <div class="col-md-4 mb-5">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-dark">Redes Sociales</li>
-                    <li class="list-group-item"><a href=https://www.instagram.com/espacio.pazamor/?hl=es>Instagram</a> </li>
-                                      
-                    <li class="list-group-item"><a href=115690000>Whatsapp</a></li>
+                <ul class="footer-list">
+                    <li class="title-footer-list">REDES SOCIALES</li>
+                    <li><a class="link" href=https://www.instagram.com/espacio.pazamor/?hles>Instagram</a> <i class="fab fa-instagram"></i></li>                                      
+                    <li><a class="link" href=115690000>Whatsapp</a> <i class="fab fa-whatsapp"></i></li>
                 </ul>
             </div>
             <div class="col-md-4 mb-5">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-dark">Nuestras Sucursales</li>
-                    <li class="list-group-item">Villa del Parque</li>
-                    <li class="list-group-item">Devoto</li>
-                    <li class="list-group-item">Villa Urquiza</li>
-                    <li class="list-group-item">Villa Santa Rita</li>
+                <ul class="footer-list">
+                    <li class="title-footer-list">NUESTRAS SUCURSALES</li>
+                    <li>Villa del Parque</li>                   
+                    <li>Villa Urquiza</li>
+                    <li>Villa Santa Rita</li>
                 </ul>
             </div>
             <div class="col-md-4 mb-5">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-dark">Legales</li>
-                    <li class="list-group-item">Afip</li>
-                    <li class="list-group-item">Sobre nosotros</li>
+                <ul class="footer-list">
+                    <li class="title-footer-list">LEGALES</li>
+                    <li>Afip</li>
+                    <li>Sobre nosotros</li>
                 </ul>
             </div>
+
+            <p class="logo-footer">~Espacio Paz & Amor~</p>
 
         </article>
-
-        <p class="logo-footer">~Espacio Paz & Amor~</p>
         
     </footer>
+
+
 
 
     <!-- Optional JavaScript; choose one of the two! -->
