@@ -25,6 +25,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
 hr {
@@ -67,6 +68,14 @@ hr {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: medium;
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .title-nav1 {
+    display: block;
+    width: 100%;
+  }
 }
 
 .boton2 {
