@@ -28,11 +28,9 @@ $bg-footer: rgb(241, 223, 223) ;
 
 
 .container-fluid{    
-        background-color:black;
+    background-color:#000000;
     padding-top: 10px;       
-    padding-bottom: 10px;   
-    font-family: 'Roboto', sans-serif;  
-    overflow:hidden   
+    font-family: 'Roboto', sans-serif;      
 }
 
 
@@ -85,17 +83,8 @@ hr {
     weight: bold;  
     size: medium ;   
     }  
-    display:none
+    
 }
-
-@media screen and (min-width: 600px)
- {
-    .title-nav1 {
-        display: block;
-        width: 100%;
-    }
-}
-
 
         
 .boton2{
