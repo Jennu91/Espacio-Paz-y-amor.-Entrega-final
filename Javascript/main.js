@@ -1,36 +1,41 @@
-class Productos{
-    constructor(nombre, talle, precio){
+class Sucursales{
+    constructor(nombre, ubicacion){
         this.nombre = nombre;
-        this.talle = talle;
-        this.precio = precio;        
+        this.ubicacion = ubicacion;        
     }
 
     mostrarInformacion(){
-        console.log("El nombre del producto es "+this.nombre+" el talle es "+this.talle+". "+"Su precio es de "+this.precio);
+        console.log("El nombre de la sucursal es " + this.nombre+ " y su ubicacion es "+this.ubicacion+".");
     }
     
     ingresoDatos(){
-        let nuevoNombre = prompt("Ingrese el nombre del producto");
+        let nuevoNombre = prompt("Ingrese el nombre de la sucursal");
         this.nombre=nuevoNombre;
-        let nuevoTalle = prompt("Ingrese el talle del producto");
-        this.talle=nuevoTalle;
-        let nuevoPrecio=prompt("Ingrese el precio del producto");
-        this.precio=nuevoPrecio;       
+        let nuevaUbicacion = prompt("Ingrese la ubicacion de la sucursal");
+        this.ubicacion=nuevaUbicacion;      
     }
 }
 
-const productosArray = [];
-let cantidad = prompt("Ingrese la cantidad de productos que desea agregar");
+const sucursalesArray = [];
+let cantidad = prompt("Ingrese la cantidad de sucursales que desea agregar");
 
-while(productosArray.length < cantidad){
-    const producto = new Productos();
-    producto.ingresoDatos();
-    console.log('productos ingresados');
-    productosArray.push(producto);
-    console.log(productosArray.length);
-    producto.mostrarInformacion();
-    console.log(productosArray)
+while(sucursalesArray.length < cantidad){
+    const sucursal = new Sucursales();
+    sucursal.ingresoDatos();
+    sucursalesArray.push(sucursal);
+    console.log(sucursalesArray.length);
+    sucursal.mostrarInformacion();
+    console.log(sucursalesArray)
 }
+
+let etiquetaSucursales = document.querySelector(".sucursales");
+
+for(let i = 0; i < cantidad; i++){
+    let codigo = `<li>${sucursalesArray[i].ubicacion}</li>`;
+    etiquetaSucursales.innerHTML += codigo;
+}
+
+
 
 
 
